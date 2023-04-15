@@ -1,0 +1,730 @@
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: hsl(0, 0%, 96%);
+}
+html {
+  background-color: hsl(0, 0%, 96%);
+}
+
+.container1 {
+  background-color: hsl(0, 0%, 96%);
+  /* background-color: black; */
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  border: solid 2px rgb(255, 255, 255);
+  padding: 1.5rem 1.5rem;
+  padding-bottom: 4rem;
+
+  /* display: flex;
+  align-items: center; */
+}
+
+.container6 {
+  background-color: hsl(0, 0%, 96%);
+  min-height: 70vh;
+  width: 100%;
+  position: absolute;
+  border-left: solid 2px rgb(255, 255, 255);
+  border-right: solid 2px rgb(255, 255, 255);
+  padding: 1.5rem 1.5rem;
+  padding-bottom: 4rem;
+
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+}
+
+.container5 {
+  background-color: hsl(0, 0%, 96%);
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  border: solid 2px rgb(255, 255, 255);
+  padding: 1.5rem 1.5rem;
+  padding-bottom: 4rem;
+  padding-top: 0;
+}
+
+.iconText {
+  font-size: x-small;
+}
+
+.icon3 {
+  font-size: 1.9em !important; /*size whatever you like*/
+}
+.icon4 {
+  font-size: 2.2em !important; /*size whatever you like*/
+}
+
+.navBar {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  border-top: solid rgb(187, 187, 187) 0.5px;
+  padding-top: 5px;
+}
+
+.navIconP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17.5%;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  background-color: hsl(0, 0%, 96%);
+  /* padding-top: 5px; */
+  padding-bottom: 5px;
+  margin-top: 4vh;
+  /* border-left: solid 2px rgb(255, 255, 255);
+  border-right: solid 2px rgb(255, 255, 255); */
+  padding: 0;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+#homePageTitle {
+  margin-bottom: 0 !important;
+}
+
+/* .titleHomePage {
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: 0px;
+  z-index: 2;
+  background-color: hsl(0, 0%, 96%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+} */
+
+.center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.icon {
+  font-size: 2.1em !important; /*size whatever you like*/
+  margin-right: 7px;
+}
+.icon2 {
+  font-size: 2em !important; /*size whatever you like*/
+}
+
+.hide {
+  display: none;
+}
+
+#hide {
+  display: none;
+}
+
+.button2,
+.button3,
+.button6,
+.button27,
+.button28 {
+  display: block;
+  margin: auto;
+  margin-bottom: 6px;
+  width: 90%;
+  max-width: 500px;
+}
+
+#gray {
+  background-color: white !important;
+  color: #00aff0;
+  border: solid 1px #00aff0;
+}
+#gray:hover {
+  background-color: #f3f3f3 !important;
+}
+
+#babyBlue {
+  background-color: #00aff0;
+}
+
+.t6diagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wings {
+  background-image: url("../images/wings.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* width: 322px; */
+  width: 214.66666px;
+  /* height: 156px; */
+  height: 104px;
+  margin-top: 10px;
+}
+
+.vt2Patch {
+  background-image: url("../images/vt2135.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 110px;
+  height: 110px;
+  display: inline-block;
+}
+.vt3Patch {
+  background-image: url("../images/vt3135.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 110px;
+  height: 110px;
+  margin-left: 2%;
+  display: inline-block;
+}
+.vt6Patch {
+  background-image: url("../images/vt6135.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 110px;
+  height: 110px;
+  margin-left: 2%;
+  display: inline-block;
+}
+
+.vt27Patch {
+  background-image: url("../images/vt27135.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 110px;
+  height: 110px;
+  display: inline-block;
+}
+.vt28Patch {
+  background-image: url("../images/vt28135.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 110px;
+  height: 110px;
+  margin-left: 2%;
+  display: inline-block;
+}
+
+.vtPatches2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vtPatches {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.t6CircleIcon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-image: url("../images/t6icon.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  animation: spin 10s linear infinite;
+}
+
+.forTheMargin {
+  margin-right: 5%;
+}
+
+.forTheMargin2 {
+  margin-left: 5%;
+}
+
+#limits {
+  color: hsl(0, 0%, 29%);
+  font-size: large;
+  background: repeating-linear-gradient(
+    45deg,
+    hsl(0, 0%, 29%),
+    hsl(0, 0%, 29%) 20px,
+    white 20px,
+    white 40px
+  );
+  border: solid hsl(0, 0%, 29%) 1px;
+  margin-bottom: 40px;
+}
+
+.spanLimits {
+  background-color: white;
+  font-weight: 500;
+}
+
+.epModal {
+  width: 90%;
+  max-width: 700px;
+  animation: forwardIn 0.2s;
+  max-height: 70vh;
+}
+
+.modal-card-foot {
+  height: 60px;
+}
+
+.epSmallFont {
+  white-space: normal;
+  word-wrap: break-word;
+
+  height: 80px;
+}
+
+.modal-card-title {
+  max-width: 100%;
+}
+
+.modal-body-line {
+  margin-bottom: 10px;
+}
+
+.delete {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.modal-card-title {
+  font-size: medium;
+}
+
+.modal-card-limits {
+  background-color: white;
+  animation: forwardIn 0.2s;
+
+  width: 95%;
+  height: 70vh;
+}
+
+.limitCloseButton {
+  position: absolute;
+  top: 75px;
+}
+
+.syllabusButton {
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 500px;
+
+  margin: auto;
+  margin-top: 4px;
+}
+
+.syllabusButtonContainer {
+  display: flex;
+}
+
+.width100 {
+  width: 100%;
+  max-width: 500px;
+
+  margin: auto;
+}
+
+.dropdownContainer {
+  display: flex;
+}
+
+.syllabusTitle {
+  margin-top: 10px;
+  text-align: center;
+  font-size: large;
+}
+
+.syllabusDropdownContent {
+  width: 100%;
+  max-width: 400px;
+}
+
+.syllabusModalCard {
+  width: 95%;
+  height: 70vh;
+
+  background-color: white;
+  animation: forwardIn 0.2s;
+}
+
+.modal-syllabus-pages {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  margin-left: 3%;
+  padding-bottom: 50px;
+}
+
+.horizontalDivider {
+  border-top: solid rgba(51, 51, 51, 0.466) 1px;
+}
+
+.modal-background-syllabus-pages {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 3;
+
+  height: 100%;
+  width: 100%;
+}
+
+.modal-background-syllabus-pages2 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 3;
+
+  height: 30%;
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .modal-background-syllabus-pages {
+    height: 1061px;
+    width: 792px;
+    margin: auto;
+  }
+}
+
+.pagesContainer {
+  height: 100%;
+  background-color: white;
+  overflow-y: scroll;
+  padding-bottom: 60px;
+}
+
+.syllabusPagesCloseButton {
+  position: absolute;
+  bottom: 53px;
+  width: 80px;
+  border-radius: 0;
+
+  animation: slideUp forwards 0.5s;
+}
+
+#syllabusPagesCloseButton {
+  background-color: #00aff0;
+}
+
+.smallerTextEp {
+  font-size: small;
+}
+
+.navIconContainer {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+.navIconContainer p {
+  display: table-cell;
+  text-align: center;
+}
+
+.KNSEMetar,
+.KNGPMetar {
+  font-size: small;
+
+  color: #00aff0;
+  margin-bottom: 10px;
+}
+
+.metarTitle {
+  margin-bottom: 10px;
+  /* color: blue; */
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.toldForRunway {
+  font-size: small;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Dropdown-root {
+  width: 75px;
+  margin-left: 10px;
+  font-size: small;
+}
+
+.Dropdown-control {
+  width: 75px !important;
+}
+
+#manualRunwayDropdown {
+  width: 75px;
+}
+
+.Dropdown-menu {
+  width: 75px !important;
+}
+
+.Dropdown-option:hover {
+  background-color: #00aff0 !important;
+  color: white !important;
+}
+
+/* .is-selected {
+  background-color: #00aff0 !important;
+  color: white !important;
+}
+.Dropdown-placeholder {
+  background-color: white !important;
+}
+.Dropdown-placeholder:hover {
+  background-color:  #00aff0 !important;
+} */
+
+.smallerText {
+  font-size: small;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.marginBottomTold {
+  margin-bottom: 10px;
+}
+
+.Dropdown-control:hover {
+  background-color: #00aff0;
+  color: white;
+  cursor: pointer;
+}
+.Dropdown-control {
+  min-height: 37px;
+}
+
+.toldData {
+  color: #00aff0;
+  margin-left: 5px;
+}
+
+.toldDataInputFields {
+  width: 60px;
+  margin-left: 3px;
+  margin-bottom: 2px;
+}
+
+.calculateToldButton {
+  width: 100%;
+  max-width: 600px;
+}
+
+.metarWrapperDiv {
+  min-height: 67px;
+  display: flex;
+  align-items: center;
+}
+
+.toggleLimitsPageButton {
+  position: absolute;
+  bottom: 53px;
+  left: 90px;
+  width: 120px;
+  border-radius: 0;
+
+  animation: slideUp forwards 0.5s;
+}
+
+.earlyAccess {
+  text-align: center;
+  /* margin-top: -28px;
+  margin-bottom: 20px; */
+}
+
+/*
+.installButton {
+  position: fixed;
+  bottom: 53px;
+  left: 102;
+  width: 75px;
+border-radius: 0;
+height: 45px;
+
+border-top-left-radius: 80%;
+border-top-right-radius: 80%;
+
+animation: slideUp forwards 0.5s;
+} */
+
+#installButton {
+  position: fixed;
+  bottom: 53px;
+  left: 112px;
+  width: 80px;
+  border-radius: 0;
+
+  height: 35px;
+
+  border-top-left-radius: 80%;
+  border-top-right-radius: 80%;
+
+  background-color: #fd5722 !important;
+  color: white;
+
+  animation: slideUp forwards 0.5s;
+  font-size: small;
+}
+
+.feedbackButton {
+  position: fixed;
+  bottom: 53px;
+  left: 2px;
+  width: 105px;
+  border-radius: 0;
+
+  height: 35px;
+
+  border-top-left-radius: 80%;
+  border-top-right-radius: 80%;
+
+  animation: slideUp forwards 0.5s;
+  font-size: small;
+}
+
+#feedbackButton {
+  background-color: hsl(0, 0%, 29%);
+}
+
+.sendMessageButton {
+  margin-top: 10px;
+}
+
+.feedbackCancelButton {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.feedbackModal {
+  width: 90%;
+  max-width: 700px;
+  animation: forwardIn 0.2s;
+  max-height: 80vh;
+}
+
+.calculateContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* .container3 {
+  display: flex;
+ align-items: center;
+} */
+
+.modal-card-body-feedback {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+#calculateButton {
+  background-color: #00aff0 !important;
+  color: white;
+}
+
+.fa-tachometer,
+.iconText,
+.fa-desktop,
+.fa-plane,
+.fa-home {
+  color: hsl(0, 0%, 29%);
+  /* color: #4b4b4b */
+  /* color: hsl(204, 86%, 53%) */
+  /* color: hsl(348, 100%, 61%); */
+}
+
+.squadronFrontPagesTitle {
+  text-align: center;
+  margin-bottom: 10px;
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+
+  margin-top: 65px;
+  /* margin-bottom: 5%; */
+  margin-bottom: 0;
+}
+
+#sendMessageButton {
+  background-color: #00aff0;
+}
+
+.container2 {
+  /* min-height: 80vh; */
+  /* display: flex;
+  align-items: center; */
+  margin-top: -65px;
+}
+
+.containerSquadronButtons {
+  /* margin-top: 5vh; */
+}
+
+.buildInProgress {
+  margin-bottom: 20px;
+}
+
+#syllabusButton {
+  background-color: #00aff0 !important;
+}
+
+.missingInputText {
+  font-size: small;
+  color: red;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.inputOutOfLimitsText {
+  font-size: small;
+  color: red;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.inputOutOfLimitsText3 {
+  font-size: small;
+  color: red;
+  margin-bottom: 5px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.dropdown-item {
+  border: none;
+  background-color: white;
+}

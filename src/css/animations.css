@@ -1,0 +1,115 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes forwardIn {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform:  translate(0px,40px)
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+.button {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.epButton {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+
+
+}
+
+#limits {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.syllabusDropdownButton:hover{
+  border: solid 1px black;
+  background-color: white;
+}
+.syllabusDropdownButton {
+  color:  #00aff0;
+  border: solid 1px #00aff0;
+}
+
+.syllabusPagesCloseButton:hover {
+background-color: white !important;
+color: #00aff0 !important;
+border: solid  #00aff0 1px !important;
+}
+
+.toggleLimitsPageButton:hover {
+  background-color: white !important;
+  color: hsl(0, 0%, 21%) !important;
+  border: solid hsl(0, 0%, 21%) 1px !important;
+  }
+
+  .installButton:hover {
+background-color: white !important;
+color: #fd5722 !important;
+border: solid #fd5722 1px !important;
+  }
+
+  #installButton:hover {
+    background-color: white !important;
+    color: #fd5722 !important;
+    border: solid #fd5722 1px !important;
+      }
+
+      .feedbackButton:hover {
+        background-color: white !important;
+        color: black !important;
+        border: solid black 1px !important;
+          }
+
+
+.dropdown-item:hover {
+  background-color:white !important;
+  /* color: white !important; */
+}
+.dropdown-item {
+  color: #00aff0
+}
+
+#calculateButton:hover {
+
+  background-color: white !important;
+  color: #00aff0 !important;
+  border: solid #00aff0 1px !important;
+  letter-spacing: 1.5px;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.toldData {
+  animation: fadeIn forwards 0.5s;
+}
