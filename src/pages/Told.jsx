@@ -901,7 +901,7 @@ class Told extends Component {
   };
 
   updateDataKNSE = () => {
-    fetch("http://localhost:3030/getWeatherDataKNSE")
+    fetch("https://t6brieferserver.fly.dev/getWeatherDataKNSE")
       .then((response) => response.json())
       .then((data) => {
         console.log("KNSE Data: ", data);
@@ -941,7 +941,9 @@ class Told extends Component {
         this.state.metarLoadingKNSE ||
         this.state.toldData1 === "fa fa-spinner fa-spin"
       ) {
-        fetch("http://localhost:3030/getWeatherDataKNSEAviationWeatherEndpoint")
+        fetch(
+          "https://t6brieferserver.fly.dev/getWeatherDataKNSEAviationWeatherEndpoint"
+        )
           .then((response) => response.text())
           .then((data) => {
             const xml = new XMLParser().parseFromString(data);
@@ -982,7 +984,7 @@ class Told extends Component {
   };
 
   updateDataKNGP = () => {
-    fetch("http://localhost:3030/getWeatherDataKNGP", {
+    fetch("https://t6brieferserver.fly.dev/getWeatherDataKNGP", {
       headers: { "Access-Control-Allow-Origin": "*" },
     })
       .then((response) => response.json())
@@ -1028,7 +1030,9 @@ class Told extends Component {
         this.state.metarLoadingKNGP ||
         this.state.toldData2 === "fa fa-spinner fa-spin"
       ) {
-        fetch("http://localhost:3030/getWeatherDataKNGPAviationWeatherEndpoint")
+        fetch(
+          "https://t6brieferserver.fly.dev/getWeatherDataKNGPAviationWeatherEndpoint"
+        )
           .then((res) => res.text())
           .then((data) => {
             var parser = new DOMParser();
